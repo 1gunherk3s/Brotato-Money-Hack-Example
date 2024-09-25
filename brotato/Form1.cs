@@ -51,11 +51,11 @@ namespace brotato
         {
             if (checkBox1.Checked == true)
             {
-                m.WriteMemory("186150481C0", "byte", "FF");  // 255 ekle // Find memory pointer.
+                m.WriteMemory("289C56725E0", "byte", "FF");  // 255 ekle // Find memory pointer.
             }
             else
             {
-                m.WriteMemory("186150481C0", "byte", "30");  // 1 ekle
+                m.WriteMemory("289C56725E0", "byte", "30");  // 1 ekle
 
             }
         }
